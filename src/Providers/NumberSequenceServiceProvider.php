@@ -24,7 +24,6 @@ class NumberSequenceServiceProvider extends ServiceProvider{
     $this->loadRoutesFrom(__DIR__.'/../routes/web.php'); //for route load from here
 
     $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        // $this->loadViewsFrom(__DIR__ . '/../resources/views', 'numbersequence'); // to load views from this package
 
     }
 
