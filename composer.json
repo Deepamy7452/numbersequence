@@ -1,0 +1,28 @@
+{
+    "name": "amy/numbersequence",
+    "description": "A laravel numbersequence generator",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amy\\Numbersequence\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amy"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amy\\Numbersequence\\Providers\\NumbersequenceServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+     "prefer-stable": true,
+    "require": {
+
+    }
+}
