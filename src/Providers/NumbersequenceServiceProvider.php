@@ -1,5 +1,5 @@
 <?php
-namespace amy\numbersequence\Providers;
+namespace Amy\Numbersequence\Providers;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;

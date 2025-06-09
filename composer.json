@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-               "Amy\\numbersequence\\Providers\\NumbersequenceServiceProvider"
+               "Amy\\Numbersequence\\Providers\\NumbersequenceServiceProvider"
             ]
         }
     },
