@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Amy\Numbersequence\Providers\BindServiceInterface;
 
 
-class NumbersequenceServiceProvider extends ServiceProvider{
+class NumbersequenceServiceProvider extends ServiceProvider {
     public function boot(){
         Schema::defaultStringLength(191);
 
