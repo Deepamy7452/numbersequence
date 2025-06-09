@@ -49,6 +49,7 @@ class NumbersequenceServiceProvider extends ServiceProvider {
         ]
     ];
 
+    // for publish the file
     foreach ($publishArray as $group => $paths) {
         $this->publishes($paths, $group);
     }
