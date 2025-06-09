@@ -3,8 +3,8 @@ namespace Amy\Numbersequence\Services;
 
 use Amy\Numbersequence\Services\Interfaces\NumberSequenceInterfaces;
 use App\Models\Number_seq_MapLog;
-use amy\numbersequence\Models\NumberSequenceV2;
-use amy\numbersequence\Models\NumberSequenceMapV2;
+use Amy\numbersequence\Models\NumberSequenceV2;
+use Amy\numbersequence\Models\NumberSequenceMapV2;
 use Illuminate\Support\Facades\Auth;
 use RealRashid\SweetAlert\Facades\Alert;
 

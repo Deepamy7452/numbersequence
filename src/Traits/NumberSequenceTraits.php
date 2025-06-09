@@ -4,8 +4,8 @@ namespace Amy\Numbersequence\Traits;
 
 use Amy\Numbersequence\Services\Interfaces\NumberSequenceInterfaces;
 // use App\Models\Number_sequence;
-use amy\numbersequence\Models\NumberSequenceMapV2;
-use amy\numbersequence\Models\NumberSequenceV2;
+use Amy\Numbersequence\Models\NumberSequenceMapV2;
+use Amy\Numbersequence\Models\NumberSequenceV2;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
