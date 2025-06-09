@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-             "Amy\\Numbersequence\\": "src/"
+             "Amy\\numbersequence\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-               "Amy\\numbersequence\\Providers\\NumbersequenceServiceProvider"
+               "Amy\\numbersequence\\Providers\\NumberSequenceServiceProvider"
             ]
         }
     },
