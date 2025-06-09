@@ -56,7 +56,6 @@ class NumberSeqHelper
             if (!$sequence?->range_no) {
             return 0;
         }
-
          // 1. Get all existing sequence values that match the prefix
         $existingCodes = $mod::where($column, 'LIKE', "{$sequence->constant_no}%") ->pluck($column)
         ->map(function ($val) use ($sequence){
