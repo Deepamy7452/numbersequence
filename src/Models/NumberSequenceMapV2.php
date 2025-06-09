@@ -1,5 +1,5 @@
 <?php
-namespace amy\numbersequence\Models;
+namespace Amy\Numbersequence\Models;
 
 use App\Models\User;
 use Illuminate\Database\Eloquent\Model;

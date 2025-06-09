@@ -2,8 +2,8 @@
 
 namespace Amy\Numbersequence\Helpers;
 
-use amy\numbersequence\Models\NumberSequenceV2;
-use amy\numbersequence\Models\NumberSequenceMapV2;
+use Amy\numbersequence\Models\NumberSequenceV2;
+use Amy\numbersequence\Models\NumberSequenceMapV2;
 
 use Carbon\Carbon;
 
