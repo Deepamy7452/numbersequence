@@ -5,7 +5,7 @@ use Amy\Numbersequence\Traits\NumberSequenceTraits;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class NumberSequenceController extends Controller{
+class NumbersequenceController extends Controller{
 
    use NumberSequenceTraits;
 }
