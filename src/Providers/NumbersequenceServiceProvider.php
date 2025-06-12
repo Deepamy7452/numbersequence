@@ -16,8 +16,9 @@ class NumbersequenceServiceProvider extends ServiceProvider {
         // $this->publishes([
         //     __DIR__.'/../resources/views' => resource_path('views/vendor/numbersequence'),
         // ], 'views');
+    $this->loadViewsFrom(__DIR__.'/../resources/views', 'numbersequence');
 
-    $this->loadViewsFrom(__DIR__.'/../resources/views', 'NumberSequence'); // now blade load from here
+    // $this->loadViewsFrom(__DIR__.'/../resources/views', 'NumberSequence'); // now blade load from here
 
     $this->mergeConfigFrom(__DIR__ . '/../../config/numbersequnce.php','numbersequnce'); //now number sequnce load from here
         // //Load routes

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Amy\Numbersequence\Http\Controllers\NumbersequenceController;
+use Amy\Numbersequence\Http\Controllers\NumberSequenceController;
  Route::group(['prefix' => 'number-seq', 'middleware' => ['web', 'auth']], function () {
         Route::any('/sequence-list', [NumbersequenceController::class, 'index'])->name('sequence.list')->middleware('check.any.permissions:Number Sequence List View,Number Sequence List Full Access');
         Route::any('/sequence-add', [NumbersequenceController::class, 'addSeq'])->name('sequence.add')->middleware('can:Number Sequence List Full Access');
